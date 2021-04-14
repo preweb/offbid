@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 19, 2021, 6:05:07 PM
+    Author     : Sourav
+*/
+
+.cont:hover{
+	box-shadow: 0 8px 16px rgba(10,0,255,0.5);
+        cursor: pointer;
+}
+.cntbtn{
+        background-color: #138496;
+        border:none;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        max-height: 30px;
+        font-size: 17px;
+        border-radius:5px;
+}
+.cntbtn:hover {
+        background-color: #00cc81; 
+        color: black; 
+        border: 2px solid greenyellow;
+        border-radius:5px;
+}
+.zoom {
+        transition: transform .4s;
+        margin: auto;
+}
+.zoom:hover {
+        -ms-transform: scale(1.4); /* IE 9 */
+        transform: scale(1.4);
+        cursor:zoom-in;
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
